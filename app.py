@@ -1,3 +1,6 @@
+# Joe Brennan - October, 2023
+# MIT License
+
 # Custom TKInter documentation: https://customtkinter.tomschimansky.com/
 
 # SCRIPT NOTES:
@@ -134,10 +137,6 @@ class Hypixel:
                 while x <= row_count - 2:
                     # Generate new number
                     time_to_walk_row = random.uniform(18.1, 18.15)
-
-                    # Debug
-                    print(time_to_walk_row)
-                    print(x)
 
                     # Walk Right
                     keyboard.press('d')
